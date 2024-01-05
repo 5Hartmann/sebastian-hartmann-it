@@ -6,6 +6,8 @@ import Home from './tamplates/Sites/Home';
 import About from './tamplates/Sites/About';
 import CV from './tamplates/Sites/CV';
 import Kontakt from './tamplates/Sites/Kontakt';
+import Footer from './tamplates/elements/Footer';
+
 
 function App() {
   return (
@@ -21,6 +23,7 @@ function App() {
           <Route path='/kontakt' element={<Kontakt/>}/>
         </Routes>
       </main>
+      <Footer/>
     </div>
   );
 }
