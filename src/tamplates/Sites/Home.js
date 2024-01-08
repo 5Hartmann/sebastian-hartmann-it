@@ -2,8 +2,8 @@ import HeroImg from "../assets/Bewerbung.jpg";
 function Home() {
     return (
         <div className="MainContainer" >
-            <div className="textBlock">
-                <div>
+            <div className="contentBlock">
+                <div className="textBlock">
                     <h1>Hi and welcome!</h1>
 
                     <div className="txt">
