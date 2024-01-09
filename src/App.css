@@ -12,7 +12,7 @@ body {
   box-shadow: 0px 8px 20px 0px #70c748;
 }
 
-.headerMoblie {
+.headerMobile {
   display: none;
 }
 
@@ -143,6 +143,10 @@ main {
   box-shadow: 0px 0px 40px 0px #70c748;
 }
 
+.About {
+  width: 63%;
+}
+
 .txt {
   width: 90%;
 }
@@ -166,7 +170,7 @@ main {
 }
 
 @media screen and (max-width: 1000px) {
-  .headerMoblie {
+  .headerMobile {
     display: block;
   }
 
@@ -185,6 +189,10 @@ main {
   #HeroImg {
     width: 75%;
     margin-top: 1rem;
+  }
+
+  .About {
+    width: auto;
   }
 
   .footerBox {
