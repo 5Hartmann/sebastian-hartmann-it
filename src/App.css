@@ -34,7 +34,6 @@ body {
   gap: 2rem;
   font-size: 1.5rem;
   text-shadow: 0px 0px 10px green;
-
 }
 
 .nav a {
@@ -46,6 +45,10 @@ body {
   padding: 1.25rem;
 }
 
+#myLinks li {
+  list-style: none;
+}
+
 .site-title {
   font-size: 3rem;
   text-shadow: 0px 0px 15px green;
@@ -54,6 +57,7 @@ body {
 .nav li.active {
   background-color: #383838;
   box-shadow: 0px 8px 20px 0px #70c748;
+  list-style: none;
 }
 
 .nav li:hover {
@@ -182,6 +186,7 @@ main {
   border: solid 2px #49eb49;
   box-shadow: 0px 0px 40px 0px #70c748;
   padding: 10px;
+  text-align: center;
 }
 
 @media screen and (max-width: 1000px) {

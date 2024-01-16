@@ -37,6 +37,12 @@ export const Kontakt = () => {
         <div className="MainContainer" >
             <div className="contentBlock">
                 <form onSubmit={handleSubmit}>
+                    <p>
+                        Kontaktiere mich gern unter meiner mail <br /><br />
+                        sebastianhartmann1996@live.de <br /><br />
+
+                        oder über das formular hier:
+                    </p>
                     <label htmlFor="name">Name:</label>
                     <input
                         type="text"
