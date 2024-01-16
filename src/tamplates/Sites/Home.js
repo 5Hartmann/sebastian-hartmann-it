@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import HeroImg from "../assets/Bewerbung.jpg";
 function Home() {
     return (
@@ -15,15 +16,15 @@ function Home() {
                         </h3>
                         <h3 className="txtBottum">
                             wenn du mehr wissen willst schau mal unter <br /><br />
-                            <div className="btn"><a href="/About">Über mich</a></div>
+                            <div className="btn"><Link to="/About">Über mich</Link></div>
                             <br /><br />
                             alternativ geht's heir zu meinem lebenslauf.
                             <br /><br />
-                            <div className="btn"> <a href="/CV" >Lebenslauf</a></div>
+                            <div className="btn"> <Link to="/CV" >Lebenslauf</Link></div>
                             <br /><br />
                             und wenn dir das alles schon reicht und du kontakt aufnehmen willst hab ich hier was für dich!
                             <br /><br />
-                            <div className="btn"><a href="/Kontakt">Kontakt</a></div>
+                            <div className="btn"><Link to="/Kontakt">Kontakt</Link></div>
                         </h3>
                     </div>
                 </div>
