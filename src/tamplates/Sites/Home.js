@@ -8,21 +8,21 @@ function Home() {
                     <h1>Hi and welcome!</h1>
 
                     <div className="txt">
-                        <h3 className="txtTop">Schön das du mich gefunden hast! aber wen eigentlich? erlaub mir mich vorzustellen.<br />
+                        <h3 className="txtTop">Schön, dass du mich gefunden hast! aber wen eigentlich? erlaub mir mich vorzustellen.<br />
                             Mein Name ist Sebastian Hartmann, ich weis offensichtlich...<br /><br />
-                            Ich bin Webentwickler aus der nähe von Berlin, hab früher mal als KFZ-mechatroniker
-                            gearbeitet<br /> und 2018 eine umschulung zum Fachinformatiker gemacht.<br />
-                            Diese habe ich 2020 erfolgreich abgeschlossen und dan für verschiede Firmen gearbeitet.
+                            Ich bin Webentwickler aus der Nähe von Berlin, hab früher mal als KFZ-mechatroniker
+                            gearbeitet<br /> und 2018 eine Umschulung zum Fachinformatiker gemacht.<br />
+                            Diese habe ich 2020 erfolgreich abgeschlossen und dann für verschiede Firmen gearbeitet.
                         </h3>
                         <h3 className="txtBottum">
-                            wenn du mehr wissen willst schau mal unter <br /><br />
+                            wenn du mehr wissen willst, schau mal unter <br /><br />
                             <div className="btn"><Link to="/About">Über mich</Link></div>
                             <br /><br />
-                            alternativ geht's heir zu meinem lebenslauf.
+                            alternativ geht's hier zu meinem Lebenslauf.
                             <br /><br />
                             <div className="btn"> <Link to="/CV" >Lebenslauf</Link></div>
                             <br /><br />
-                            und wenn dir das alles schon reicht und du kontakt aufnehmen willst hab ich hier was für dich!
+                            und wenn dir das alles schon reicht und du Kontakt aufnehmen willst, habe ich hier was für dich!
                             <br /><br />
                             <div className="btn"><Link to="/Kontakt">Kontakt</Link></div>
                         </h3>
