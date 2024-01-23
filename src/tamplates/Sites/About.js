@@ -1,4 +1,4 @@
-import HeroImg from "../assets/Bewerbung.jpg";
+import HeroImg from "../assets/FrontSchräg.png";
 function About() {
     return (
         <div className="MainContainer" >

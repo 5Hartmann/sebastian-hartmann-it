@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import HeroImg from "../assets/Bewerbung.jpg";
+import HeroImg from "../assets/FrontAnsicht.png";
 function Home() {
     return (
         <div className="MainContainer" >
