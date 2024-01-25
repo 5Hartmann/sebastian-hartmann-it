@@ -8,11 +8,11 @@ function Home() {
                     <h1>Hi and welcome!</h1>
 
                     <div className="txt">
-                        <h3 className="txtTop">Schön, dass du mich gefunden hast! aber wen eigentlich? erlaub mir mich vorzustellen.<br />
-                            Mein Name ist Sebastian Hartmann, ich weis offensichtlich...<br /><br />
-                            Ich bin Webentwickler aus der Nähe von Berlin, hab früher mal als KFZ-mechatroniker
+                        <h3 className="txtTop">Schön, dass du mich gefunden hast! Aber wen eigentlich? Erlaub mir mich vorzustellen.<br />
+                            Mein Name ist Sebastian Hartmann, ich weiß offensichtlich...<br /><br />
+                            Ich bin Webentwickler aus der Nähe von Berlin, hab früher mal als KFZ-Mechatroniker
                             gearbeitet<br /> und 2018 eine Umschulung zum Fachinformatiker gemacht.<br />
-                            Diese habe ich 2020 erfolgreich abgeschlossen und dann für verschiede Firmen gearbeitet.
+                            Diese habe ich 2020 erfolgreich abgeschlossen und dann für verschiedene Firmen gearbeitet.
                         </h3>
                         <h3 className="txtBottum">
                             wenn du mehr wissen willst, schau mal unter <br /><br />
